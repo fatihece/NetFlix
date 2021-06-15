@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-image:url(./img/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+html{
+    font-size:20px yazarsak default değerimiz 20px olur.}
+     */
+#form-container{
+    max-width: 1240px; 
+    /* height i içindeki elemanlardan alacak  */
+    /* height: 1036px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    /* container body e ortalı gelecek. */
+    margin-top: 30px;
+}
+#form-title{
+    color: white;
+    font-family: 'Bowlby One SC', cursive; 
+    font-size: 3.1rem;
+    
+    letter-spacing: 0.05em;
+
+}
+
+span{
+    color: red;
+}
+
+#form-description{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.4rem; 
+    /* 23/16 = 1.4 */
+    color: white;
+}
+
+#form-header{
+    text-align: center;
+}
+
+#survey-form-container{
+    max-width: 500px;
+    /* height: 897px; */
+    /* yüksekliği ilerde kaldırıcaz. içerisine element girince kaldırıcaz, başlangıçta alanı görmek için height değeri veriyoruz. */
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    /* ortalamak içim margin:auto verdik */
+    padding: 10px;
+}
+
+#survey-form{
+    max-width: 460px;
+    margin: auto;
+    font-size: 1rem;
+    
+    /* height: 800px; */
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback,
+#checkbox{
+    width: 100%;
+    padding: 20px;
+    margin-top: 8px;
+}
+
+.input-box{
+    margin-top: 20px;
+
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#form-submit{
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
+}
